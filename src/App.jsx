@@ -20,6 +20,7 @@ import CounterWithHistory from "./components/CounterWithHistory";
 import TodoApp from "./components/TodoApp";
 import Accordian from "./components/Accordian";
 import Modal from "./components/Modal";
+import TabsComponent from "./components/TabsComponent";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -40,7 +41,8 @@ function App() {
   }
   return (
     <>
-      <Modal />
+      <TabsComponent />
+      {/* <Modal /> */}
       {/* <Accordian /> */}
       {/* <Debounce /> */}
       {/* <TodoApp /> */}
