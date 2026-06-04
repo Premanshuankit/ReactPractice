@@ -21,6 +21,7 @@ import TodoApp from "./components/TodoApp";
 import Accordian from "./components/Accordian";
 import Modal from "./components/Modal";
 import TabsComponent from "./components/TabsComponent";
+import Rating from "./components/Rating";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -41,7 +42,8 @@ function App() {
   }
   return (
     <>
-      <TabsComponent />
+      <Rating />
+      {/* <TabsComponent /> */}
       {/* <Modal /> */}
       {/* <Accordian /> */}
       {/* <Debounce /> */}
