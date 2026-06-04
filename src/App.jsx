@@ -18,6 +18,7 @@ import PasswordStrength from "./components/PasswordStrength";
 import CharCount from "./components/CharCount";
 import CounterWithHistory from "./components/CounterWithHistory";
 import TodoApp from "./components/TodoApp";
+import Accordian from "./components/Accordian";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -38,6 +39,7 @@ function App() {
   }
   return (
     <>
+      <Accordian />
       {/* <Debounce /> */}
       {/* <TodoApp /> */}
       {/* <CounterWithHistory /> */}
