@@ -22,6 +22,7 @@ import Accordian from "./components/Accordian";
 import Modal from "./components/Modal";
 import TabsComponent from "./components/TabsComponent";
 import Rating from "./components/Rating";
+import PasswordGenerator from "./components/PasswordGenerator";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -42,7 +43,8 @@ function App() {
   }
   return (
     <>
-      <Rating />
+      <PasswordGenerator />
+      {/* <Rating /> */}
       {/* <TabsComponent /> */}
       {/* <Modal /> */}
       {/* <Accordian /> */}
