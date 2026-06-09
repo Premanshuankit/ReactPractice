@@ -25,6 +25,7 @@ import Rating from "./components/Rating";
 import PasswordGenerator from "./components/PasswordGenerator";
 import InfiniteScroll from "./components/InfiniteScroll";
 import InfiniteScrollLimit10 from "./components/InfiniteScrollLimit10";
+import InfiniteScrollPage from "./components/InfiniteScrollPage";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -45,7 +46,8 @@ function App() {
   }
   return (
     <>
-      <InfiniteScrollLimit10 />
+      <InfiniteScrollPage />
+      {/* <InfiniteScrollLimit10 /> */}
       {/* <InfiniteScroll /> */}
       {/* <PasswordGenerator /> */}
       {/* <Rating /> */}
