@@ -26,6 +26,7 @@ import PasswordGenerator from "./components/PasswordGenerator";
 import InfiniteScroll from "./components/InfiniteScroll";
 import InfiniteScrollLimit10 from "./components/InfiniteScrollLimit10";
 import InfiniteScrollPage from "./components/InfiniteScrollPage";
+import PaginationWithLoop from "./components/PaginationWithLoop";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -46,7 +47,8 @@ function App() {
   }
   return (
     <>
-      <InfiniteScrollPage />
+      <PaginationWithLoop />
+      {/* <InfiniteScrollPage /> */}
       {/* <InfiniteScrollLimit10 /> */}
       {/* <InfiniteScroll /> */}
       {/* <PasswordGenerator /> */}
@@ -68,7 +70,7 @@ function App() {
 
       {/* <Child onClick={handleChild} /> */}
       {/* <Child style={{borderColor: 'red'}} /> */}
-      <hr />
+      {/* <hr /> */}
       {/* <h1>lifting in the parent : {type}</h1> */}
       {/* <StateLiftingUpA  type={type} setType = {setType}/> */}
       {/* <StateLiftingUpB type = {type}/> */}
