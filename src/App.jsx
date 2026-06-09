@@ -29,6 +29,7 @@ import InfiniteScrollPage from "./components/InfiniteScrollPage";
 import PaginationWithLoop from "./components/PaginationWithLoop";
 import PaginationWithApi from "./components/PaginationWithApi";
 import PaginationWithApi2 from "./components/PaginationWithApi2";
+import Folder from "./components/Folder";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -49,7 +50,8 @@ function App() {
   }
   return (
     <>
-    <PaginationWithApi2 />
+      <Folder />
+      {/* <PaginationWithApi2 /> */}
       {/* <PaginationWithApi /> */}
       {/* <PaginationWithLoop /> */}
       {/* <InfiniteScrollPage /> */}
