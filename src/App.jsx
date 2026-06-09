@@ -27,6 +27,8 @@ import InfiniteScroll from "./components/InfiniteScroll";
 import InfiniteScrollLimit10 from "./components/InfiniteScrollLimit10";
 import InfiniteScrollPage from "./components/InfiniteScrollPage";
 import PaginationWithLoop from "./components/PaginationWithLoop";
+import PaginationWithApi from "./components/PaginationWithApi";
+import PaginationWithApi2 from "./components/PaginationWithApi2";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -47,7 +49,9 @@ function App() {
   }
   return (
     <>
-      <PaginationWithLoop />
+    <PaginationWithApi2 />
+      {/* <PaginationWithApi /> */}
+      {/* <PaginationWithLoop /> */}
       {/* <InfiniteScrollPage /> */}
       {/* <InfiniteScrollLimit10 /> */}
       {/* <InfiniteScroll /> */}
