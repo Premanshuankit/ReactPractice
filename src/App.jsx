@@ -23,6 +23,7 @@ import Modal from "./components/Modal";
 import TabsComponent from "./components/TabsComponent";
 import Rating from "./components/Rating";
 import PasswordGenerator from "./components/PasswordGenerator";
+import InfiniteScroll from "./components/InfiniteScroll";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -43,7 +44,8 @@ function App() {
   }
   return (
     <>
-      <PasswordGenerator />
+      <InfiniteScroll />
+      {/* <PasswordGenerator /> */}
       {/* <Rating /> */}
       {/* <TabsComponent /> */}
       {/* <Modal /> */}
