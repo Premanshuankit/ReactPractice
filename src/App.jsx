@@ -32,6 +32,7 @@ import PaginationWithApi2 from "./components/PaginationWithApi2";
 import Folder from "./components/Folder";
 import Toast from "./components/Toast";
 import MultiStepForm from "./components/MultiStepForm";
+import ThemeSwitch from "./components/ThemeSwitch";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -52,7 +53,8 @@ function App() {
   }
   return (
     <>
-      <MultiStepForm />
+      <ThemeSwitch />
+      {/* <MultiStepForm /> */}
       {/* <Toast /> */}
       {/* <Folder /> */}
       {/* <PaginationWithApi2 /> */}
