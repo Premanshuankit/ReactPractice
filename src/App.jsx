@@ -34,6 +34,8 @@ import Toast from "./components/Toast";
 import MultiStepForm from "./components/MultiStepForm";
 import ThemeSwitch from "./components/ThemeSwitch";
 import KanbanBoard from "./components/KanbanBoard";
+import Carousel from "./components/Carousel";
+import EmojiCounter from "./components/EmojiCounter";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -54,7 +56,9 @@ function App() {
   }
   return (
     <>
-      <KanbanBoard />
+      <EmojiCounter />
+      {/* <Carousel /> */}
+      {/* <KanbanBoard /> */}
       {/* <ThemeSwitch /> */}
       {/* <MultiStepForm /> */}
       {/* <Toast /> */}
