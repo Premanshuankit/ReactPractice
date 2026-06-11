@@ -33,6 +33,7 @@ import Folder from "./components/Folder";
 import Toast from "./components/Toast";
 import MultiStepForm from "./components/MultiStepForm";
 import ThemeSwitch from "./components/ThemeSwitch";
+import KanbanBoard from "./components/KanbanBoard";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -53,7 +54,8 @@ function App() {
   }
   return (
     <>
-      <ThemeSwitch />
+      <KanbanBoard />
+      {/* <ThemeSwitch /> */}
       {/* <MultiStepForm /> */}
       {/* <Toast /> */}
       {/* <Folder /> */}
