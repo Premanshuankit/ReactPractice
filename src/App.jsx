@@ -40,6 +40,7 @@ import NestedComments from "./components/NestedComments";
 import CustomHooks from "./components/CustomHooks";
 import OTPInput from "./components/OTPInput";
 import ProgressBar from "./components/ProgressBar";
+import DataTable from "./components/DataTable";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -60,7 +61,8 @@ function App() {
   }
   return (
     <>
-      <ProgressBar />
+      <DataTable />
+      {/* <ProgressBar /> */}
       {/* <OTPInput /> */}
       {/* <CustomHooks /> */}
       {/* <NestedComments /> */}
