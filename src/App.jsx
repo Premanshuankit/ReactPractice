@@ -39,6 +39,7 @@ import EmojiCounter from "./components/EmojiCounter";
 import NestedComments from "./components/NestedComments";
 import CustomHooks from "./components/CustomHooks";
 import OTPInput from "./components/OTPInput";
+import ProgressBar from "./components/ProgressBar";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -59,7 +60,8 @@ function App() {
   }
   return (
     <>
-      <OTPInput />
+      <ProgressBar />
+      {/* <OTPInput /> */}
       {/* <CustomHooks /> */}
       {/* <NestedComments /> */}
       {/* <EmojiCounter /> */}
