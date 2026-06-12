@@ -38,6 +38,7 @@ import Carousel from "./components/Carousel";
 import EmojiCounter from "./components/EmojiCounter";
 import NestedComments from "./components/NestedComments";
 import CustomHooks from "./components/CustomHooks";
+import OTPInput from "./components/OTPInput";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -58,7 +59,8 @@ function App() {
   }
   return (
     <>
-      <CustomHooks />
+      <OTPInput />
+      {/* <CustomHooks /> */}
       {/* <NestedComments /> */}
       {/* <EmojiCounter /> */}
       {/* <Carousel /> */}
