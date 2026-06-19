@@ -41,6 +41,7 @@ import CustomHooks from "./components/CustomHooks";
 import OTPInput from "./components/OTPInput";
 import ProgressBar from "./components/ProgressBar";
 import DataTable from "./components/DataTable";
+import DataTable2 from "./components/DataTable2";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -61,7 +62,8 @@ function App() {
   }
   return (
     <>
-      <DataTable />
+      <DataTable2 />
+      {/* <DataTable /> */}
       {/* <ProgressBar /> */}
       {/* <OTPInput /> */}
       {/* <CustomHooks /> */}
