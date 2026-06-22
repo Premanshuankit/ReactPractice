@@ -42,6 +42,7 @@ import OTPInput from "./components/OTPInput";
 import ProgressBar from "./components/ProgressBar";
 import DataTable from "./components/DataTable";
 import DataTable2 from "./components/DataTable2";
+import DataTable3 from "./components/DataTable3";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -62,7 +63,8 @@ function App() {
   }
   return (
     <>
-      <DataTable2 />
+      <DataTable3 />
+      {/* <DataTable2 /> */}
       {/* <DataTable /> */}
       {/* <ProgressBar /> */}
       {/* <OTPInput /> */}
